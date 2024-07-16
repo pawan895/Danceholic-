@@ -21,6 +21,8 @@ npm install
 5. A download button for the user to download their dance after each level
 
 ## Working
+![Danceholic working](https://github.com/user-attachments/assets/8df34bce-d86d-44db-b274-504e55cbb89b)
+
 ### Calculation of the score
 Movenet model detects 17 keypoints of the body such as nose, left elbow, right knee, etc.
 
