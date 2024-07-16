@@ -3,7 +3,7 @@
  Danceholic is a website where users can learn how to dance with Machine Learning
 
 ## Live Project
-[https://danceify.vercel.app/](https://danceify.vercel.app/)
+[http://danceholic-pawan895.s3-website.ap-south-1.amazonaws.com/](http://danceholic-pawan895.s3-website.ap-south-1.amazonaws.com/)
 ## Installation
 Fork or Clone the project
 
