@@ -29,22 +29,18 @@ For calculating the score, I have used the method of gradients (calculating the 
 The gradients in the dance video are pre-calculated and are compared to the gradients of the user in real time. 
 
 ## Demonstration
-![home page](https://github.com/sunidhishende/Danceify/blob/newest/public/images/homepage.png)
-![levels page](https://github.com/sunidhishende/Danceify/blob/newest/public/images/levels.png)
-![level1](https://github.com/sunidhishende/Danceify/blob/newest/public/images/level1.png)
-![graph](https://github.com/sunidhishende/Danceify/blob/newest/public/images/graph.png)
-![download button](https://github.com/sunidhishende/Danceify/blob/newest/public/images/download.png)
+![image](https://github.com/user-attachments/assets/549c3311-6df6-42fe-8e23-9d02eadf0cf9)
+
+![image](https://github.com/user-attachments/assets/8d1afb3d-5583-4f0c-a426-9301cace9e23)
+
+![image](https://github.com/user-attachments/assets/ee977f06-4598-4adc-b617-2c9af64c46c9)
+
+![image](https://github.com/user-attachments/assets/8702d505-ff53-4457-948b-f99f6ee55673)
+
+![image](https://github.com/user-attachments/assets/fa1f0034-9b90-4e1d-a3fb-853a97834035)
+
 
 ## Technologies used
 1. React
 2. TensorFlow
 
-## Challenges Faced and Learnings
-1. Being new to Machine Learning, it was very interesting and fun to understand the basics and read a lot of research papers and documentation.
-2. One of the biggest challenges was to display the score real time and sync it with the video. I commited plenty of mistakes, but learnt that whenever in doubt go back to the docs. 
-
-## Future Scope
-I'm very excited about this project and will continue building it. Some of the features I'd like to implement are:
-1. Ability to give score for multiple people in a frame
-2. Adjust the speed of the video so that users can learn in their preferred speed
-3. Adding multiple styles of dancing like tutting, ballet, etc.
