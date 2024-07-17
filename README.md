@@ -3,7 +3,7 @@
  Danceholic is a website where users can learn how to dance with Machine Learning
 
 ## Live Project
-[http://danceholic-pawan895.s3-website.ap-south-1.amazonaws.com/](https://d3a9652u6cce93.cloudfront.net/)
+[https://d3a9652u6cce93.cloudfront.net/](https://d3a9652u6cce93.cloudfront.net/)
 ## Installation
 Fork or Clone the project
 
