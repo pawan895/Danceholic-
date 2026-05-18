@@ -23,7 +23,7 @@ export default function Example() {
           {/* Image Logo */}
           <div className="flex-shrink-0">
             <Link to='/'>
-              <img className="h-4 w-24 md:h-8 md:w-48" src={`${process.env.PUBLIC_URL}/images/Logo.png`} />
+              <img className="h-4 w-24 md:h-8 md:w-48" src={`${process.env.PUBLIC_URL}/images/Logo.png`} alt="Danceholic logo" />
 
             </Link>
           </div>
