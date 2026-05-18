@@ -5,13 +5,32 @@
 ## Live Project
 [https://d3a9652u6cce93.cloudfront.net/](https://d3a9652u6cce93.cloudfront.net/)
 ## Installation
-Fork or Clone the project
-
-Use the package manager npm to install the dependencies.
+Fork or Clone the project, then install dependencies and start the dev server:
 
 ```bash
-npm install
+npm install --legacy-peer-deps
+npm start
 ```
+
+> The `--legacy-peer-deps` flag is required because `@ronchalant/react-loading-overlay` declares a React 17 peer dependency while this project runs on React 18. A `.npmrc` is committed so `npm install` works without the flag in most environments.
+
+## Production build
+
+```bash
+npm run build
+```
+
+The optimized bundle is written to `build/` and can be served by any static host.
+
+## Deployment (Vercel)
+
+The repository ships with a `vercel.json` that configures the install/build commands for the React 18 + legacy peer-deps setup, so the project deploys to Vercel out of the box:
+
+1. Import the repo on [vercel.com](https://vercel.com/new) — Vercel auto-detects the Create React App preset.
+2. No environment variables are required.
+3. Click **Deploy**. Vercel runs `npm install --legacy-peer-deps` and `CI=false react-scripts build`, then serves the `build/` directory.
+
+`CI=false` is set in the build command because Create React App promotes ESLint warnings to errors when `CI=true` (Vercel's default). This keeps the build green while the codebase is gradually cleaned up.
 
 ## Features
 1. Clean, minimalistic UI to reduce user's activation energy to start learning

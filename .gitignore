@@ -1,12 +1,32 @@
-# Ignore node_modules directory
+# dependencies
 node_modules/
+.pnp
+.pnp.js
 
-# Ignore log files
-*.log
+# testing
+/coverage
 
-# Ignore environment files
-.env
-
-# Ignore build output
+# production
 build/
+dist/
 
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# editors
+.idea/
+.vscode/
+
+# vercel
+.vercel
